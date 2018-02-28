@@ -1,0 +1,2 @@
+import  manage.py
+#runserver
