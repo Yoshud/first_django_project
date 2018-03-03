@@ -83,14 +83,14 @@ DATABASES = {
         'HOST': '127.0.0.1',
         'PORT': '3306',
     },
-    'druga': {
-            'ENGINE': 'django.db.backends.postgresql',
-            'NAME': 'quiz',
-            'USER': 'postgres',
-            'PASSWORD': 'Gwyn',
-            'HOST': '127.0.0.1',
-            'PORT': '5536',
-        }
+    # 'druga': {
+    #         'ENGINE': 'django.db.backends.postgresql',
+    #         'NAME': 'quiz',
+    #         'USER': 'postgres',
+    #         'PASSWORD': 'Gwyn',
+    #         'HOST': '127.0.0.1',
+    #         'PORT': '5536',
+    #     }
 }
 
 # Password validation
