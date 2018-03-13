@@ -19,5 +19,7 @@ class QuestionAdmin(admin.ModelAdmin):
     list_filter = ['pub_date', 'choices__votes']
     search_fields = ['question_text']
     date_hierarchy = 'pub_date'
+    list_per_page = 50;
+
 admin.site.register(Question, QuestionAdmin)
 #admin.site.register(Choices)
